@@ -1,0 +1,30 @@
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.child{
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: none;
+}
+
+.child img{
+    height: 200px;
+    width: 100%;
+}
+
+#leftarrow, #rightarrow {
+    margin-left: 12px;
+    width: 3%;
+    display: inline-block;
+}
+
+#leftarrow button, #rightarrow button{
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
